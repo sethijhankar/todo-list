@@ -1,0 +1,140 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.todo{
+  text-align: center;
+  font-size: 2rem;
+  padding: 60px;
+  background-color: black;
+  color: white;
+}
+#modal-modal-title{
+  font-size: 20px;
+}
+.box{
+  color: white;
+}
+.input{
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.135);
+}
+.btn {
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+  border-radius: 1%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.btn .b1 {
+  border: 2px solid white;
+  margin-right: 20px;
+  background-color: black;
+  color: white;
+  transition: color 0.3s;
+}
+
+.btn .b2 {
+  border: 2px solid black;
+  color: black;
+  transition: color 0.3s; 
+  background-color: white;
+}
+
+.btn .b1:hover{
+  color: black;
+  background-color: white;
+}
+.btn .b2:hover{
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  height: 250px;
+  width: 350px;
+  color: black;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 2%;
+  border-top: 10px solid black;
+  position: relative;
+  font-size: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.tab{
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+.delete{
+  width: 30px;
+  margin: 10px;
+  transition: ease-in-out 0.3s;
+  transform: translateY(0px);
+  justify-content: end;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.btn2{
+  color: white !important;
+  border: 2px solid white !important;
+  margin: 20px !important;
+  transition: color 0.3s !important; 
+}
+.btn2:hover{
+  color: black !important;
+  background-color: white !important;
+  border: 2px solid black !important;
+}
+.task h3{
+  padding: 30px 20px 20px 40px;
+  font-size: 1.8rem;
+}
+.delete:hover{
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+.search{
+  padding: 20px 20px 20px 40px;
+}
+.b4{
+  color:black;
+  padding: 10px 10px 10px 0;
+  width:250px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.star-icon{
+  width: 30px;
+  margin: 10px;
+  transition: ease-in-out 0.3s;
+  transform: translateY(0px);
+  justify-content: end;
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
+.star-icon:hover{
+  cursor: pointer;
+  width: 35px;
+}
+.b5{
+  padding: 10px ;
+  margin: 10px;
+  border: 2px solid black;
+}
